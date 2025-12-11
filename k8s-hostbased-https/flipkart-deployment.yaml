@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: flipkart-app-container
-          image: harishnshetty/flipkart:latest  # Use your actual Docker image name and tag
+          image: mangesh123/flipkart:latest  # Use your actual Docker image name and tag
           ports:
             - containerPort: 80  # The port your game app is listening on
           resources:
